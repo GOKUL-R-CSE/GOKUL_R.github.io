@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -27,7 +26,7 @@
         left: 0;
         width: 100%;
         background-color: white;
-        box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
+        box-shadow: 5px 10px 30px rgba(0,0,0,0.03);
         z-index: 1;
       }
       logo img{
