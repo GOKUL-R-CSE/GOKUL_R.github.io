@@ -31,7 +31,10 @@
         z-index: 1;
       }
       logo img{
+        margin-top: 20;
+        
         height: 45px;
+        border-image-slice: fill;
       }
       .menu{
         list-style: none;
@@ -68,6 +71,8 @@
         object-fit: contain;
       }
       .Content{
+        top: 0px;
+        margin: 0px;
         display: flex;
         width: 90%;
         justify-content: space-around;
@@ -118,27 +123,27 @@
     <section id="main">
       <nav>
         <a href="" class="logo">
-          <img src="#" alt="The Logo of Project Rock">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeX1ehlzdcQqtNGXkSodyCEiis1tkgC-4VYg&usqp=CAU" alt="The Logo of Project Rock">
         </a>
         <span class="menu-space"></span>
         <ul class="menu">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Recent</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="https://skillcrush.com/blog/front-end-developer-skills/">Skills</a></li>
+          <li><a href="https://www.coredna.com/blogs/web-development-trends">Recent</a></li>
+          <li><a href="https://marketbusinessnews.com/financial-glossary/client-definition-meaning/#:~:text=A%20client%20is%20somebody%20who,a%20relationship%20with%20the%.20seller">Clients</a></li>
+          <li><a href="https://nicepage.com/d/89492/contact-our-stylist-web-design">Contacts</a></li>
         </ul>
-        <a href="#" class="hey"><strong> Say Hi! </strong></a>
+        <a href="http://www.easyroid.com/index_en.htm" class="hey"><strong> Say Hi! </strong></a>
       </nav>
     </section>
     <section class="Content">
       <div class="image">
-        <img src="#" alt="Rock">
+        <img src="http://4.bp.blogspot.com/-DbHKjwOHhbc/VMFqkvzTBhI/AAAAAAAAxLo/jn15-xoG0lc/s1600/Dwayne%2BJohnson%2B(The%2BRock)%2BHd%2BFree%2BWallpapers%2B6.png" alt="Rock">
       </div>
       <div class="main-text">
         <h1>Hello, I am The <br> Rock</h1>
         <p>Hey in this Video I will be showing you guys how to build a websit using only HTML and CSS</p>
-        <a href="#" class="resume-btn">See My Resume</a>
+        <a href="https://en.wikipedia.org/wiki/Dwayne_Johnson" class="resume-btn">See My Resume</a>
       </div>
     </section>
   </body>
